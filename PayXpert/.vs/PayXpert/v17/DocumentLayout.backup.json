@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Hexaware\\Case Study\\Saravanapriya_Hexa_CaseStudy\\PayXpert\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F0345069-B557-4732-91EC-76DA5A1C5866}|PayXpert_Test_Project\\PayXpert_Test_Project.csproj|e:\\hexaware\\case study\\saravanapriya_hexa_casestudy\\payxpert\\payxpert_test_project\\verifyerrorhandlingforinvalidemployeedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0345069-B557-4732-91EC-76DA5A1C5866}|PayXpert_Test_Project\\PayXpert_Test_Project.csproj|solutionrelative:payxpert_test_project\\verifyerrorhandlingforinvalidemployeedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0345069-B557-4732-91EC-76DA5A1C5866}|PayXpert_Test_Project\\PayXpert_Test_Project.csproj|e:\\hexaware\\case study\\saravanapriya_hexa_casestudy\\payxpert\\payxpert_test_project\\processpayrollformultipleemployees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0345069-B557-4732-91EC-76DA5A1C5866}|PayXpert_Test_Project\\PayXpert_Test_Project.csproj|solutionrelative:payxpert_test_project\\processpayrollformultipleemployees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0345069-B557-4732-91EC-76DA5A1C5866}|PayXpert_Test_Project\\PayXpert_Test_Project.csproj|e:\\hexaware\\case study\\saravanapriya_hexa_casestudy\\payxpert\\payxpert_test_project\\verifytaxcalculationforhighincomeemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0345069-B557-4732-91EC-76DA5A1C5866}|PayXpert_Test_Project\\PayXpert_Test_Project.csproj|solutionrelative:payxpert_test_project\\verifytaxcalculationforhighincomeemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0345069-B557-4732-91EC-76DA5A1C5866}|PayXpert_Test_Project\\PayXpert_Test_Project.csproj|e:\\hexaware\\case study\\saravanapriya_hexa_casestudy\\payxpert\\payxpert_test_project\\calculategrosssalaryforemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0345069-B557-4732-91EC-76DA5A1C5866}|PayXpert_Test_Project\\PayXpert_Test_Project.csproj|solutionrelative:payxpert_test_project\\calculategrosssalaryforemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0345069-B557-4732-91EC-76DA5A1C5866}|PayXpert_Test_Project\\PayXpert_Test_Project.csproj|e:\\hexaware\\case study\\saravanapriya_hexa_casestudy\\payxpert\\payxpert_test_project\\calculatenetsalaryafterdeductions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0345069-B557-4732-91EC-76DA5A1C5866}|PayXpert_Test_Project\\PayXpert_Test_Project.csproj|solutionrelative:payxpert_test_project\\calculatenetsalaryafterdeductions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AD99C8B-830E-4F84-AEB5-40B9C718DB83}|PayXpert\\PayXpert.csproj|e:\\hexaware\\case study\\saravanapriya_hexa_casestudy\\payxpert\\payxpert\\main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AD99C8B-830E-4F84-AEB5-40B9C718DB83}|PayXpert\\PayXpert.csproj|solutionrelative:payxpert\\main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VerifyErrorHandlingForInvalidEmployeeData.cs",
+              "DocumentMoniker": "E:\\Hexaware\\Case Study\\Saravanapriya_Hexa_CaseStudy\\PayXpert\\PayXpert_Test_Project\\VerifyErrorHandlingForInvalidEmployeeData.cs",
+              "RelativeDocumentMoniker": "PayXpert_Test_Project\\VerifyErrorHandlingForInvalidEmployeeData.cs",
+              "ToolTip": "E:\\Hexaware\\Case Study\\Saravanapriya_Hexa_CaseStudy\\PayXpert\\PayXpert_Test_Project\\VerifyErrorHandlingForInvalidEmployeeData.cs",
+              "RelativeToolTip": "PayXpert_Test_Project\\VerifyErrorHandlingForInvalidEmployeeData.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T03:11:23.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProcessPayrollForMultipleEmployees.cs",
+              "DocumentMoniker": "E:\\Hexaware\\Case Study\\Saravanapriya_Hexa_CaseStudy\\PayXpert\\PayXpert_Test_Project\\ProcessPayrollForMultipleEmployees.cs",
+              "RelativeDocumentMoniker": "PayXpert_Test_Project\\ProcessPayrollForMultipleEmployees.cs",
+              "ToolTip": "E:\\Hexaware\\Case Study\\Saravanapriya_Hexa_CaseStudy\\PayXpert\\PayXpert_Test_Project\\ProcessPayrollForMultipleEmployees.cs",
+              "RelativeToolTip": "PayXpert_Test_Project\\ProcessPayrollForMultipleEmployees.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T03:04:43.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VerifyTaxCalculationForHighIncomeEmployee.cs",
+              "DocumentMoniker": "E:\\Hexaware\\Case Study\\Saravanapriya_Hexa_CaseStudy\\PayXpert\\PayXpert_Test_Project\\VerifyTaxCalculationForHighIncomeEmployee.cs",
+              "RelativeDocumentMoniker": "PayXpert_Test_Project\\VerifyTaxCalculationForHighIncomeEmployee.cs",
+              "ToolTip": "E:\\Hexaware\\Case Study\\Saravanapriya_Hexa_CaseStudy\\PayXpert\\PayXpert_Test_Project\\VerifyTaxCalculationForHighIncomeEmployee.cs",
+              "RelativeToolTip": "PayXpert_Test_Project\\VerifyTaxCalculationForHighIncomeEmployee.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwB4AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T02:59:09.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CalculateNetSalaryAfterDeductions.cs",
+              "DocumentMoniker": "E:\\Hexaware\\Case Study\\Saravanapriya_Hexa_CaseStudy\\PayXpert\\PayXpert_Test_Project\\CalculateNetSalaryAfterDeductions.cs",
+              "RelativeDocumentMoniker": "PayXpert_Test_Project\\CalculateNetSalaryAfterDeductions.cs",
+              "ToolTip": "E:\\Hexaware\\Case Study\\Saravanapriya_Hexa_CaseStudy\\PayXpert\\PayXpert_Test_Project\\CalculateNetSalaryAfterDeductions.cs",
+              "RelativeToolTip": "PayXpert_Test_Project\\CalculateNetSalaryAfterDeductions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T02:49:35.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CalculateGrossSalaryForEmployee.cs",
+              "DocumentMoniker": "E:\\Hexaware\\Case Study\\Saravanapriya_Hexa_CaseStudy\\PayXpert\\PayXpert_Test_Project\\CalculateGrossSalaryForEmployee.cs",
+              "RelativeDocumentMoniker": "PayXpert_Test_Project\\CalculateGrossSalaryForEmployee.cs",
+              "ToolTip": "E:\\Hexaware\\Case Study\\Saravanapriya_Hexa_CaseStudy\\PayXpert\\PayXpert_Test_Project\\CalculateGrossSalaryForEmployee.cs",
+              "RelativeToolTip": "PayXpert_Test_Project\\CalculateGrossSalaryForEmployee.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAuwFsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T02:29:31.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Hexaware\\Case Study\\Saravanapriya_Hexa_CaseStudy\\PayXpert\\PayXpert\\main\\Program.cs",
+              "RelativeDocumentMoniker": "PayXpert\\main\\Program.cs",
+              "ToolTip": "E:\\Hexaware\\Case Study\\Saravanapriya_Hexa_CaseStudy\\PayXpert\\PayXpert\\main\\Program.cs",
+              "RelativeToolTip": "PayXpert\\main\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T12:33:08.787Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
