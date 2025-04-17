@@ -11,11 +11,11 @@ namespace PayXpert.util
             if (string.IsNullOrWhiteSpace(fileName))
                 throw new ArgumentException("File name cannot be null or empty.", nameof(fileName));
 
-            // Log paths for debugging
+            
             Console.WriteLine($"Input FileName: {fileName}");
             Console.WriteLine($"Current Directory: {Environment.CurrentDirectory}");
 
-            // 🔧 Hardcoded absolute path for debugging (remove after confirming)
+            
             string fullPath = @"E:\\Hexaware\\Case Study\\Saravanapriya_Hexa_CaseStudy\\PayXpert\\PayXpert\\db.properties";
             Console.WriteLine("Trying to read from: " + fullPath);
 
@@ -42,11 +42,11 @@ namespace PayXpert.util
                 throw new InvalidOperationException("Error reading the properties file.", ex);
             }
 
-            // Required keys
+            
             if (!dict.ContainsKey("Server") || !dict.ContainsKey("Database"))
                 throw new KeyNotFoundException("The properties file must contain 'Server' and 'Database' keys.");
 
-            // ✅ Windows Authentication - Use Trusted_Connection
+        
             return $"Server={dict["Server"]};Database={dict["Database"]};Trusted_Connection=True;Encrypt=False;TrustServerCertificate=True;";
 
         }

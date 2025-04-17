@@ -15,7 +15,7 @@ namespace PayXpert.main
             var payrollService = new PayrollService(connStr);
             var taxService = new TaxService(connStr);
             var financialService = new FinancialRecordService(connStr);
-            var reportGenerator = new ReportGenerator();
+            var reportGenerator = new ReportGenerator(employeeService);
 
             while (true)
             {

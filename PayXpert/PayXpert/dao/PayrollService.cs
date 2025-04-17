@@ -18,8 +18,8 @@ namespace PayXpert.dao
 
         public Payroll GeneratePayroll(int employeeId, DateTime startDate, DateTime endDate)
         {
-            double basicSalary = 30000; // Example, fetch from another source if needed
-            double overtimePay = 2000;  // Simulated
+            double basicSalary = 30000; 
+            double overtimePay = 2000;  
             double deductions = 1500;
             double netSalary = basicSalary + overtimePay - deductions;
 
