@@ -90,18 +90,45 @@ namespace PayXpert.main
                             break;
 
                         case 5:
-                            Console.Write("Enter Employee ID for reports: ");
-                            int reportId = Convert.ToInt32(Console.ReadLine());
+                            try
+                            {
+                                Console.Write("Enter Employee ID for reports: ");
+                                int reportId = Convert.ToInt32(Console.ReadLine());
 
-                            var payrolls = payrollService.GetPayrollsForEmployee(reportId);
-                            reportGenerator.GeneratePayrollReport(payrolls);
+                                var employee = employeeService.GetEmployeeById(reportId); 
 
-                            var taxes = taxService.GetTaxesForEmployee(reportId);
-                            reportGenerator.GenerateTaxReport(taxes);
+                                var payrolls = payrollService.GetPayrollsForEmployee(reportId);
+                                if (payrolls.Count > 0)
+                                    reportGenerator.GeneratePayrollReport(payrolls);
+                                else
+                                    Console.WriteLine("No payroll records found for the employee.");
 
-                            var records = financialService.GetFinancialRecordsForEmployee(reportId);
-                            reportGenerator.GenerateFinancialSummary(records);
+                                var taxes = taxService.GetTaxesForEmployee(reportId);
+                                if (taxes.Count > 0)
+                                    reportGenerator.GenerateTaxReport(taxes);
+                                else
+                                    Console.WriteLine("No tax records found for the employee.");
+
+                                var records = financialService.GetFinancialRecordsForEmployee(reportId);
+                                if (records.Count > 0)
+                                    reportGenerator.GenerateFinancialSummary(records);
+                                else
+                                    Console.WriteLine("No financial records found for the employee.");
+                            }
+                            catch (EmployeeNotFoundException ex)
+                            {
+                                Console.WriteLine("Error: " + ex.Message);
+                            }
+                            catch (FormatException)
+                            {
+                                Console.WriteLine("Invalid input. Please enter a valid numeric Employee ID.");
+                            }
+                            catch (Exception ex)
+                            {
+                                Console.WriteLine("An unexpected error occurred: " + ex.Message);
+                            }
                             break;
+
 
                         case 6:
                             Console.WriteLine("Exiting...");
